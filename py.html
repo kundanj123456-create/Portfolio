@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kundan Jadhav | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#home" class="logo">Kundan Jadhav</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Welcome to My Portfolio <br /><span>Kundan Jadhav</span></h1>
+          <p>
+            First-year Engineering student passionate about front-end web development,
+            problem-solving, and building clean, user-friendly digital experiences.
+          </p>
+          <a href="#contact" class="btn">Contact Me</a>
+        </div>
+
+        <div class="avatar-wrap">
+          <!-- Replace src with your own photo path (e.g., images/profile.jpg) -->
+          <img
+            src="https://placehold.co/280x280/2563eb/ffffff?text=KJ"
+            alt="Portrait of Kundan Jadhav"
+            class="avatar"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-card">
+          <p>
+            Hello! I am <strong>Kundan Ramesh Jadhav</strong>, a first-year undergraduate engineering
+            student at <strong>Alard University, Pune</strong>. I enjoy turning ideas into
+            functional web applications using modern HTML5 and CSS3.
+          </p>
+          <p>
+            <strong>Interests &amp; Career Goals:</strong> My core interests lie in full-stack web
+            development, artificial intelligence workflows, and software engineering. My goal is to
+            build impactful, scalable software products while continuously sharpening my algorithmic
+            and design skills.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title">Technical &amp; Professional Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <span class="skill-badge">Frontend</span>
+            <h3>HTML5</h3>
+            <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-badge">Styling</span>
+            <h3>CSS3 &amp; Flexbox</h3>
+            <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-badge">Programming</span>
+            <h3>Python</h3>
+            <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-badge">Core Logic</span>
+            <h3>C Programming</h3>
+            <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-badge">Version Control</span>
+            <h3>Git &amp; GitHub</h3>
+            <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-badge">Soft Skill</span>
+            <h3>Communication &amp; Teamwork</h3>
+            <div class="progress-bar"><div class="progress" style="width: 88%;"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <img
+              src="https://placehold.co/600x340/1e293b/ffffff?text=Responsive+Portfolio+Website"
+              alt="Personal Portfolio Website Preview"
+              class="project-img"
+            />
+            <div class="project-body">
+              <h3>Responsive Personal Portfolio</h3>
+              <p>
+                A multi-section portfolio built purely with semantic HTML5 and CSS3 Flexbox/Grid,
+                featuring smooth navigation, interactive hover states, and mobile-first layouts.
+              </p>
+              <a href="#home" class="btn btn-outline">View Project</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <img
+              src="https://placehold.co/600x340/0f172a/ffffff?text=Student+Task+Tracker+UI"
+              alt="Student Study Planner Interface"
+              class="project-img"
+            />
+            <div class="project-body">
+              <h3>Engineering Study &amp; Resource Hub</h3>
+              <p>
+                A clean academic dashboard layout designed to organize first-year engineering
+                subjects, lab schedules, and coding notes in an easy-to-scan card interface.
+              </p>
+              <a href="#contact" class="btn btn-outline">View Project</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>Have a project idea, hackathon team invite, or question? Feel free to reach out.</p>
+            <ul>
+              <li><strong>Name:</strong> Kundan Ramesh Jadhav</li>
+              <li><strong>Email:</strong> kundan.jadhav@example.com</li>
+              <li><strong>Location:</strong> Pune, Maharashtra, India</li>
+            </ul>
+          </div>
+
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="fullname">Full Name *</label>
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject of your message"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Write your message here..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Kundan Ramesh Jadhav. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+      <div class="form-group">
+  <label for="subject">Subject *</label>
+  <input
+    type="text"
+    id="subject"
+    name="subject"
+    placeholder="Subject of your message"
+    required
+  />
+</div>
+    </div>
+  </footer>
+
+</body>
+</html>
